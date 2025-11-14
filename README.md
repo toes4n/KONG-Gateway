@@ -131,11 +131,13 @@ Deploy the Echo Service
 
 # Test Your Deployment
 
-# Get Kong Proxy service external IP
-export PROXY_IP=$(kubectl get svc -n kong kong-gateway-proxy -o jsonpath='{.status.loadBalancer.ingress[0].ip}')
+Get Kong Proxy service external IP
+
+    export PROXY_IP=$(kubectl get svc -n kong kong-gateway-proxy -o jsonpath='{.status.loadBalancer.ingress[0].ip}')
 
 # Test the endpoint
-curl -H "Host: echo.example.com" http://$PROXY_IP/echo
+    curl -H "Host: echo.example.com" http://$PROXY_IP/echo
+    
 Alternative: Using HTTPRoute (Gateway API)
 
 # For modern Gateway API approach:​
