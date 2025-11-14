@@ -178,3 +178,6 @@ Enable rate limiting on your service:​
       policy: local
     plugin: rate-limiting
     EOF
+
+# What This Achieves
+This setup demonstrates Kong's power: automatic service discovery, declarative configuration, health checking across replicas, and easy plugin integration—all managed through Kubernetes-native resources. The echo service translates to a Kong Gateway service and route automatically.
