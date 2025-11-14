@@ -40,7 +40,7 @@ kubectl configured with cluster access​
 
     helm repo add kong https://charts.konghq.com
     helm repo update
-    helm install kong --namespace kong --create-namespace --repo https://charts.konghq.com ingress
+    helm install kong kong/ingress -n kong --create-namespace
     
 # Step 3: Verify Installation
 
