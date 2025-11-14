@@ -83,7 +83,7 @@ Deploy the Echo Service
         spec:
           containers:
           - name: echo
-            image: gcr.io/kubernetes-e2e-test-images/echoserver:2.2
+            image: ealen/echo-server:latest
             ports:
             - containerPort: 1027
             env:
