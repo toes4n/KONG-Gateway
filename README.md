@@ -22,10 +22,11 @@ Centralized Control: Single entry point for managing external traffic with impro
 
 
 <img width="986" height="393" alt="image" src="https://github.com/user-attachments/assets/b3da01f9-9b36-4255-ad16-790cd283d4b3" />
+
 # Installation Guide
 Prerequisites
 
-Kubernetes cluster (Minikube, Kind, GKE, EKS, or ACK)
+Kubernetes cluster (Minikube, K3s, Kind, GKE, EKS, or ACK)
 
 Helm 3.x installed
 
