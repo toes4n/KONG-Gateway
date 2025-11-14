@@ -1,4 +1,4 @@
-# KONG-Gateway
+# 🦍 KONG-Gateway
 Kong Gateway
 
 # Kong Ingress Controller: Your Gateway to Kubernetes Traffic Management
