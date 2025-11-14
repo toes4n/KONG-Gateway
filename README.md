@@ -17,10 +17,12 @@ Centralized Control: Single entry point for managing external traffic with impro
 
 # How KONG Ingress Controller work:
 
-<img width="986" height="393" alt="image" src="https://github.com/user-attachments/assets/b3da01f9-9b36-4255-ad16-790cd283d4b3" />
 
 <img width="902" height="303" alt="image" src="https://github.com/user-attachments/assets/4ac48824-58ff-4ca3-b8ce-1e156ce209c1" />
 
+<br>
+
+<img width="986" height="393" alt="image" src="https://github.com/user-attachments/assets/b3da01f9-9b36-4255-ad16-790cd283d4b3" />
 # Installation Guide
 Prerequisites
 
